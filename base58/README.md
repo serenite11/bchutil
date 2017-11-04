@@ -1,7 +1,7 @@
 base58
 ==========
 
-[![Build Status](http://img.shields.io/travis/btcsuite/btcutil.svg)](https://travis-ci.org/btcsuite/btcutil)
+[![Build Status](http://img.shields.io/travis/bchsuite/bchutil.svg)](https://travis-ci.org/bchsuite/bchutil)
 [![ISC License](http://img.shields.io/badge/license-ISC-blue.svg)](http://copyfree.org)
 [![GoDoc](https://img.shields.io/badge/godoc-reference-blue.svg)](http://godoc.org/github.com/bchsuite/bchutil/base58)
 
