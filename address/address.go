@@ -3,9 +3,9 @@ package address
 import (
 	"errors"
 	"fmt"
-	"github.com/bchsuite/bchd/bchutil"
 	"github.com/bchsuite/bchd/chaincfg"
 	"github.com/bchsuite/bchd/txscript"
+	"github.com/bchsuite/bchutil"
 	"golang.org/x/crypto/ripemd160"
 )
 
