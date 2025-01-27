@@ -386,7 +386,7 @@ func DecodeAddress(addr string, defaultNet *chaincfg.Params) (bchutil.Address, e
 	// Switch on decoded length to determine the type.
 	decoded, _, typ, err := CheckDecodeCashAddress(addr)
 	if err != nil {
-		if err == ErrChecksumMismatch {
+		if errors.Is(err, ErrChecksumMismatch) {
 			return nil, ErrChecksumMismatch
 		}
 		return nil, errors.New("decoded address is of unknown format")
@@ -395,9 +395,9 @@ func DecodeAddress(addr string, defaultNet *chaincfg.Params) (bchutil.Address, e
 	case ripemd160.Size: // P2PKH or P2SH
 		switch typ {
 		case P2PKH:
-			return newCashAddressPubKeyHash(decoded, defaultNet)
+			return bchutil.NewAddressPubKeyHash(decoded, defaultNet)
 		case P2SH:
-			return newCashAddressScriptHashFromHash(decoded, defaultNet)
+			return bchutil.NewAddressScriptHashFromHash(decoded, defaultNet)
 		default:
 			return nil, ErrUnknownAddressType
 		}
