@@ -1,0 +1,12 @@
+github.com/bchsuite/bchd v0.0.0-20171115031648-585afbdef8b8 h1:ho/EoSuOrFS5HJK544imSUIEjXKJkmCF0/Xpzk93iuk=
+github.com/bchsuite/bchd v0.0.0-20171115031648-585afbdef8b8/go.mod h1:47NLca9/K6NNG5ZuGWUwyZSP9Kq0mADqs8qXXbro29c=
+github.com/bchsuite/bchlog v0.0.0-20171105124706-ed5d9caa3ea3 h1:XGcYPxl6W62+81oyeFlJ1Ry/Kruuk5ftfY17YfH3f1M=
+github.com/bchsuite/bchlog v0.0.0-20171105124706-ed5d9caa3ea3/go.mod h1:fROf1T6fKQXU622mdxQMiYzxbQnZIbqKXTfGM40Nhlk=
+github.com/bchsuite/bchutil v0.0.0-20171105124755-1db7414eadd2 h1:TziRnfW+Q9yfS7SgxKoShaNn38Jf+MsvWPQ4YL4V2mw=
+github.com/bchsuite/bchutil v0.0.0-20171105124755-1db7414eadd2/go.mod h1:ZXknFitglYWp+WUOhbFmeVcvZkAs9/4MNm6MZaQ0bFA=
+github.com/btcsuite/golangcrypto v0.0.0-20150304025918-53f62d9b43e8 h1:nOsAWScwueMVk/VLm/dvQQD7DuanyvAUb6B3P3eT274=
+github.com/btcsuite/golangcrypto v0.0.0-20150304025918-53f62d9b43e8/go.mod h1:tYvUd8KLhm/oXvUeSEs2VlLghFjQt9+ZaF9ghH0JNjc=
+github.com/davecgh/go-spew v1.1.1 h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c=
+github.com/davecgh/go-spew v1.1.1/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
+golang.org/x/crypto v0.32.0 h1:euUpcYgM8WcP71gNpTqQCn6rC2t6ULUPiOzfWaXVVfc=
+golang.org/x/crypto v0.32.0/go.mod h1:ZnnJkOaASj8g0AjIduWNlq2NRxL0PlBrbKVyZ6V/Ugc=
